@@ -1,0 +1,123 @@
+{
+  "product": "Pipedrive-class CRM",
+  "version_date": "2026-09-03",
+  "excluded": [
+    "onboarding",
+    "training academy",
+    "tutorial videos",
+    "demo videos"
+  ],
+  "modules": [
+    "pulse",
+    "leads",
+    "deals",
+    "contacts",
+    "activities",
+    "mail",
+    "products",
+    "projects",
+    "insights",
+    "automations",
+    "campaigns",
+    "admin"
+  ],
+  "views": {
+    "deals": [
+      "pipeline",
+      "list",
+      "forecast",
+      "archive"
+    ],
+    "leads": [
+      "inbox",
+      "archive"
+    ],
+    "activities": [
+      "calendar",
+      "list"
+    ],
+    "projects": [
+      "board",
+      "list",
+      "gantt"
+    ],
+    "insights": [
+      "reports",
+      "goals",
+      "dashboards"
+    ]
+  },
+  "admin_configuration": [
+    "pipelines",
+    "stages",
+    "probabilities",
+    "custom_fields",
+    "required_fields",
+    "important_fields",
+    "activity_types",
+    "labels",
+    "lost_reasons",
+    "currencies",
+    "products",
+    "taxes",
+    "users",
+    "teams",
+    "permission_sets",
+    "visibility_groups",
+    "pipeline_visibility",
+    "email",
+    "calendar",
+    "automations",
+    "sequences",
+    "webhooks",
+    "integrations",
+    "api_oauth",
+    "ai_toggles",
+    "imports_exports",
+    "audit_security"
+  ],
+  "automation": {
+    "triggers": [
+      "created",
+      "updated",
+      "specific_field_updated",
+      "date_time"
+    ],
+    "logic": [
+      "and_or_conditions",
+      "if_else",
+      "delay",
+      "wait_condition"
+    ],
+    "actions": [
+      "create_record",
+      "update_record",
+      "assign_owner",
+      "move_stage",
+      "create_activity",
+      "send_email",
+      "enroll_sequence",
+      "create_project_task",
+      "webhook"
+    ],
+    "observability": [
+      "execution_history",
+      "failure_reason",
+      "enable_disable"
+    ]
+  },
+  "access_model": [
+    "module_access_rights",
+    "permission_sets",
+    "visibility_groups"
+  ],
+  "ai": [
+    "import_mapping",
+    "nl_report_builder",
+    "email_draft",
+    "email_summary",
+    "suggested_reply",
+    "next_step_guidance",
+    "project_health"
+  ]
+}

@@ -1,13 +1,4 @@
-# Node
-node_modules/
-npm-debug.log*
-
-# CRM runtime data (sqlite db, uploaded files, outbox)
-app/data/*.sqlite*
-app/data/files/
-app/data/outbox/
-
-# OS / editor
-Thumbs.db
-.DS_Store
-*.log
+```
+# Documentation
+*.md
+```

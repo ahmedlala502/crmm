@@ -1,4 +1,12 @@
 ```
-# Documentation
-*.md
+# SQLite database files
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Database lock files
+*.lock
+
+# Data directory
+app/data/
 ```
